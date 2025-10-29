@@ -20,8 +20,8 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "portfolio", element: <Portfolio /> },
-        { path: "models/fashionmodel", element: <FashionModel />},
-        { path: "models./runwaymodel",element: <RunwayModel />},
+        { path: "models/fashion-model", element: <FashionModel />},
+        { path: "models/runway-model",element: <RunwayModel />},
       { path: "about", element: <About /> },
       { path: "press", element: <Press /> },
       { path: "contact", element: <Contact /> }
