@@ -20,15 +20,15 @@ export default function Navbar() {
 
 
   return (
-    <header className="nav flex items-center justify-between sm:px-[20px] sm:py-4 md:px-20 md:pt-10 lg:px-[60px] lg:py-4 2xl:px-[288px] 2xl:py-10 relative">
+    <header className="flex justify-between">
       {/* Logo */}
-      <a className="siteLogo sm:max-lg:w-[40%] sm:max-lg:p-[10px]" href="/">
-        <img src="/src/assets/logos/site-logo.png" alt="Site Logo" />
+      <a className="sm:max-w-[215px] xl:max-w-[375px]" href="/">
+        <img src="/src/assets/ICONS/SITE_LOGO.png" alt="Site Logo" />
       </a>
 
       {/* HAMBURGER */}
       <button
-        className="lg:hidden flex flex-col gap-1 p-2"
+        className="lg:hidden flex flex-col gap-1 p-2 justify-center"
         onClick={() => setIsMobileOpen(!isMobileOpen)}
         aria-label="Toggle navigation"
       >
@@ -38,31 +38,12 @@ export default function Navbar() {
       </button>
 
 {/* DESKTOP NAV */}
-      <nav className="desktopNav hidden! lg:flex! sm:max-xl:gap-6 xl:gap-10! items-center">
-        <NavLink to="/mainboard" className="text-[16px] font-semibold 2xl:text-[24px]" end>MAIN BOARD</NavLink>
-        <NavLink to="/infocus" className="text-[16px] font-semibold 2xl:text-[24px]">INFOCUS</NavLink>
+      <nav className="desktopNav hidden! lg:flex! sm:max-xl:gap-6 xl:gap-[55px] items-end">
+        <NavLink to="/portfolio" className="text-[16px] xl:text-[24px]" end>PORTFOLIO</NavLink>
+        <NavLink to="/about" className="text-[16px] xl:text-[24px]">ABOUT</NavLink>
 
-        {/* Models dropdown */}
-        <div
-          className="nav-dropdown relative"
-          onMouseEnter={() => setIsModelsOpen(true)}
-          onMouseLeave={() => setIsModelsOpen(false)}
-        >
-          <NavLink to="/models" className="nav-dropdown-trigger text-[16px] 2xl:text-[24px] inline-flex items-center gap-2">
-            MODELS <span className={`dropdown-arrow ${isModelsOpen ? "open" : ""}`}>▼</span>
-          </NavLink>
-
-          {isModelsOpen && (
-            <div className="nav-submenu absolute mt-2 bg-white shadow p-3">
-              <NavLink to="/models/kids" className="text-[16px] font-semibold 2xl:text-[24px]">Kids</NavLink>
-              <NavLink to="/models/teens" className="text-[16px] font-semibold 2xl:text-[24px]">Teens</NavLink>
-              <NavLink to="/models/thai" className="text-[16px] font-semibold 2xl:text-[24px]">Thai</NavLink>
-            </div>
-          )}
-        </div>
-
-        <NavLink to="/grwmrr" className="text-[16px] font-semibold 2xl:text-[24px]">GRWMRR</NavLink>
-        <NavLink to="/contact" className="text-[16px] font-semibold 2xl:text-[24px]">CONTACT US</NavLink>
+        <NavLink to="/press" className="text-[16px] xl:text-[24px]">PRESS</NavLink>
+        <NavLink to="/contact" className="text-[16px] xl:text-[24px]">CONTACT</NavLink>
       </nav>
 
 {/* MOBILE NAV */}
@@ -80,32 +61,15 @@ export default function Navbar() {
             <button className="absolute top-6 right-6 text-4xl" 
                     onClick={handleClose}>×
             </button>
-            <NavLink to="/mainboard"  className="sm:text-[16px] md:text-[20px] font-semibold 2xl:text-[24px]" end onClick={handleClose}>MAIN BOARD</NavLink>
-            <NavLink to="/infocus"  className="sm:text-[16px] md:text-[20px] font-semibold 2xl:text-[24px]" onClick={handleClose}>INFOCUS</NavLink>
-
-            {/* MODELS dropdown */}
-            <div>
-              <div className="flex items-center gap-4 cursor-pointer">
-                <NavLink to="/models"  className="sm:text-[16px] md:text-[20px] font-semibold 2xl:text-[24px]" onClick={handleClose}>MODELS</NavLink>
-                <span className={`transition-transform ${isModelsOpen ? "rotate-180" : ""}`}
-                      onClick={() => setIsModelsOpen(!isModelsOpen)}>▼</span>
-              </div>
-
-              {isModelsOpen && (
-                <div className="flex flex-col ml-4 gap-2 mt-2">
-                  <NavLink to="/models/kids" className="sm:text-[16px] md:text-[20px] font-semibold 2xl:text-[24px]" onClick={handleClose}>Kids</NavLink>
-                  <NavLink to="/models/teens" className="sm:text-[16px] md:text-[20px] font-semibold 2xl:text-[24px]" onClick={handleClose}>Teens</NavLink>
-                  <NavLink to="/models/thai" className="sm:text-[16px] md:text-[20px] font-semibold 2xl:text-[24px]" onClick={handleClose}>Thai</NavLink>
-                </div>
-              )}
-            </div>
-
-            <NavLink to="/grwmrr" className="sm:text-[16px] md:text-[20px] font-semibold 2xl:text-[24px]" onClick={handleClose}>GRWMRR</NavLink>
-            <NavLink to="/contact" className="sm:text-[16px] md:text-[20px] font-semibold 2xl:text-[24px]" onClick={handleClose}>CONTACT US</NavLink>
+                <NavLink to="/portfolio" className="text-[16px] xl:text-[24px]" end onClick={handleClose}>PORTFOLIO</NavLink>
+                <NavLink to="/about" className="text-[16px] xl:text-[24px]" onClick={handleClose}>ABOUT</NavLink>
+         
+                <NavLink to="/press" className="text-[16px] xl:text-[24px]" onClick={handleClose}>PRESS</NavLink>
+                <NavLink to="/contact" className="text-[16px] xl:text-[24px]" onClick={handleClose}>CONTACT</NavLink>
             
             {/*site logo mobile */}
             <a className="p-0 self-center sm:w-[160px] md:w-[230px] pt-10" href="/">
-              <img src="/src/assets/logos/Transparent_MRR_logo.png" alt="Site Logo" />
+              <img src="/src/assets/ICONS/SITE_LOGO.png" alt="Site Logo" />
             </a>
             <section className="sm:max-w-[200px] mx-auto">
               <div className="grid grid-cols-3 gap-6">
