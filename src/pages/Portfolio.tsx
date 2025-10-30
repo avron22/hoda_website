@@ -1,9 +1,10 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Portfolio(){
   return (
     <>
-      <div className="h-[100vh] flex flex-col overflow-x-hidden justify-between sm:px-[30px] sm:py-0 xl:px-[140px] xl:pt-[60px] xl:pb-[90px]"> 
+      <div className="h-[100vh] flex flex-col overflow-x-hidden justify-between pt-[60px] px-[140px]"> 
         <section>
           <Navbar />
           <div className="pt-40 flex gap-4">
@@ -18,7 +19,7 @@ export default function Portfolio(){
           </div>
         </section>
         <section className="pt-20 -mx-35">
-          <div className="h-[360px] bg-[var(--text)]">
+          <div className="h-[360px] bg-[var(--text)] mb-[320px]">
             <h1 className="text-[var(--accent)] text-[50px] py-[30px] font-bold text-center">LATEST VIDEO</h1>
             <div className="pb-[150px] mx-[200px] overflow-hidden!">
               <div className="animate-scroll flex w-full gap-5">
@@ -44,6 +45,7 @@ export default function Portfolio(){
               </div>
             </div>
           </div>
+          <Footer />
         </section>
       </div>
     </>
