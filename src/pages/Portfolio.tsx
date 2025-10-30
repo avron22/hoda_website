@@ -9,12 +9,17 @@ export default function Portfolio(){
           <Navbar />
           <div className="pt-40 flex gap-4">
             <div className="w-[50%] flex flex-col gap-[30px]">
-              <h1 className="text-[50px] font-bold">RUNWAY MODEL</h1>
-              <img src="/src/assets/PORTFOLIO/RUNWAY_COVER.png" alt="RUNWAY MODEL" />
+              <a href="http://localhost:5173/models/runway-model">
+                <h1 className="text-[50px] font-bold">RUNWAY MODEL</h1>
+                <img src="/src/assets/PORTFOLIO/RUNWAY_COVER.png" alt="RUNWAY MODEL" />
+              </a>
             </div>
+            
             <div className="w-[50%] flex flex-col gap-[30px]">
-              <h1 className="text-[50px] font-bold">FASHION MODEL</h1>
-              <img src="/src/assets/PORTFOLIO/FASHION_COVER.png" alt="RUNWAY MODEL" />
+              <a href="http://localhost:5173/models/fashion-model">
+                <h1 className="text-[50px] font-bold">FASHION MODEL</h1>
+                <img src="/src/assets/PORTFOLIO/FASHION_COVER.png" alt="RUNWAY MODEL" />
+              </a>
             </div>
           </div>
         </section>
