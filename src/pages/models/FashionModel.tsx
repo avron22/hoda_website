@@ -15,67 +15,67 @@ export default function FashionModel(){
               {/* Grid Container */}
               <div className="grid grid-cols-30 gap-5 auto-rows-[150px]">
                 
-                {/* Left - Tall Image (spans 3 columns, 4 rows) */}
+                {/*Brown 1*/}
                 <div className="col-span-30 md:col-span-10 row-span-5">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Brown_1.png" 
-                      alt="Fashion 1"
+                      alt="Brown 1"
                       className="w-full h-full object-cover"
                     />
                   </div>
                 </div>
 
-                {/* Top Middle - Portrait (spans 3 columns, 3 rows) */}
+                {/*Brown 2*/}
                 <div className="col-span-30 md:col-span-9 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Brown_2.png" 
-                      alt="Fashion 2"
+                      alt="Brown 2"
                       className="w-full h-full object-cover"
                     />
                   </div>
                 </div>
 
-                {/* Top Right - Wide horizontal (spans 6 columns, 2 rows) */}
+                {/*Brown 3*/}
                 <div className="col-span-30 md:col-span-11 row-span-2">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Brown_3.png" 
-                      alt="Fashion 3"
+                      alt="Brown 3"
                       className="w-full h-full object-cover"
                     />
                   </div>
                 </div>
 
-                {/* Middle Bottom - Medium (spans 3 columns, 3 rows) */}
+                {/*Brown 4*/}
                 <div className="col-span-30 md:col-span-6 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Brown_5.png" 
-                      alt="Fashion 4"
+                      alt="Brown 4"
                       className="w-full h-full object-cover"
                     />
                   </div>
                 </div>
 
-                {/* Right Middle - Square (spans 3 columns, 3 rows) */}
+                {/*Brown 5*/}
                 <div className="col-span-30 md:col-span-5 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Brown_6.png" 
-                      alt="Fashion 5"
+                      alt="Brown 5"
                       className="w-full h-full object-cover"
                     />
                   </div>
                 </div>
 
-                {/* Right Bottom Square (spans 3 columns, 3 rows) */}
+                {/*Brown 6*/}
                 <div className="col-span-30 md:col-span-9 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Brown_4.png" 
-                      alt="Fashion 6"
+                      alt="Brown 6"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -86,7 +86,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Yellow_1.png" 
-                      alt="Fashion 7"
+                      alt="Yellow 1"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -97,7 +97,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Yellow_3.png" 
-                      alt="Fashion 8"
+                      alt="Yellow 2"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -108,7 +108,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Yellow_2.png" 
-                      alt="Fashion 8"
+                      alt="Yellow 3"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -119,7 +119,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Yellow_4.png" 
-                      alt="Fashion 8"
+                      alt="Yellow 4"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -130,7 +130,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Yellow_5.png" 
-                      alt="Fashion 8"
+                      alt="Yellow 5"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -141,7 +141,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Yellow_6.png" 
-                      alt="Fashion 8"
+                      alt="Yellow 6"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -152,7 +152,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Pink_3.png" 
-                      alt="Fashion 8"
+                      alt="Pink 1"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -163,7 +163,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Pink_1.png" 
-                      alt="Fashion 8"
+                      alt="Pink 2"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -174,7 +174,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Pink_2.png" 
-                      alt="Fashion 8"
+                      alt="Pink 3"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -185,7 +185,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Pink_5.png" 
-                      alt="Fashion 8"
+                      alt="Pink 4"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -196,7 +196,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Pink_4.png" 
-                      alt="Fashion 8"
+                      alt="Pink 5"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -207,7 +207,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Moon_1.png" 
-                      alt="Fashion 8"
+                      alt="Moon 1"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -218,7 +218,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Moon_2.png" 
-                      alt="Fashion 8"
+                      alt="Moon 2"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -229,7 +229,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Moon_4.png" 
-                      alt="Fashion 8"
+                      alt="Moon 3"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -240,7 +240,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Moon_3.png" 
-                      alt="Fashion 8"
+                      alt="Moon 4"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -251,7 +251,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Red_1.png" 
-                      alt="Fashion 8"
+                      alt="Red 1"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -262,7 +262,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Red_3.png" 
-                      alt="Fashion 8"
+                      alt="Red 2"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -273,7 +273,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Red_4.png" 
-                      alt="Fashion 8"
+                      alt="Red 3"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -284,7 +284,7 @@ export default function FashionModel(){
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
                       src="../src/assets/FASHION/Red_2.png" 
-                      alt="Fashion 8"
+                      alt="Red 4"
                       className="w-full h-full object-cover"
                     />
                   </div>
