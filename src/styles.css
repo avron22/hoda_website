@@ -52,3 +52,21 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
+
+/*CSS FOR AUTOSCROLL*/
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 10s linear infinite;
+  width: max-content;
+}
+.animate-scroll:hover{
+   animation-play-state: paused;
+}
