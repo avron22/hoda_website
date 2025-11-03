@@ -4,49 +4,51 @@ import Footer from "../components/Footer";
 export default function Portfolio(){
   return (
     <>
-      <div className="h-[100vh] flex flex-col overflow-x-hidden justify-between pt-[60px] px-[140px]"> 
+      <div className="h-[100vh] flex flex-col overflow-x-hidden justify-between 
+                      lg:pt-[60px] 
+                      sm:px-[40px] lg:px-[140px]"> 
         <section>
           <Navbar />
-          <div className="pt-40 flex gap-4">
-            <div className="w-[50%] flex flex-col gap-[30px]">
+          <div className="sm:pt-1 lg:pt-40 flex sm:max-lg:flex-col sm:gap-5 lg:gap-4">
+            <div className="lg:w-[50%] flex lg:flex-col gap-[30px]">
               <a href="http://localhost:5173/models/runway-model">
-                <h1 className="text-[50px] font-bold">RUNWAY MODEL</h1>
+                <h1 className="sm:text-[16px] sm:max-lg:pb-[10px] lg:text-[50px] font-bold">RUNWAY MODEL</h1>
                 <img src="/src/assets/PORTFOLIO/RUNWAY_COVER.png" alt="RUNWAY MODEL" />
               </a>
             </div>
             
-            <div className="w-[50%] flex flex-col gap-[30px]">
+            <div className="lg:w-[50%] flex lg:flex-col gap-[30px]">
               <a href="http://localhost:5173/models/fashion-model">
-                <h1 className="text-[50px] font-bold">FASHION MODEL</h1>
+                <h1 className="sm:text-[16px] sm:max-lg:pb-[10px] lg:text-[50px] font-bold">FASHION MODEL</h1>
                 <img src="/src/assets/PORTFOLIO/FASHION_COVER.png" alt="RUNWAY MODEL" />
               </a>
             </div>
           </div>
         </section>
-        <section className="pt-20 -mx-35">
-          <div className="h-[360px] bg-[var(--text)] mb-[320px]">
-            <h1 className="text-[var(--accent)] text-[50px] py-[30px] font-bold text-center">LATEST VIDEO</h1>
-            <div className="pb-[150px] mx-[200px] overflow-hidden!">
-              <div className="animate-scroll flex w-full gap-5">
-                <img src="/src/assets/PORTFOLIO/VID_1.png" className="h-[400px]" alt="VIDEO 1" />
-                <img src="/src/assets/PORTFOLIO/VID_2.png" className="h-[400px]" alt="VIDEO 2" />
-                <img src="/src/assets/PORTFOLIO/VID_3.png" className="h-[400px]" alt="VIDEO 3" />
-                <img src="/src/assets/PORTFOLIO/VID_4.png" className="h-[400px]" alt="VIDEO 4" />
-                <img src="/src/assets/PORTFOLIO/VID_5.png" className="h-[400px]" alt="VIDEO 5" />
-                <img src="/src/assets/PORTFOLIO/VID_6.png" className="h-[400px]" alt="VIDEO 6" />
-                <img src="/src/assets/PORTFOLIO/VID_7.png" className="h-[400px]" alt="VIDEO 7" />
-                <img src="/src/assets/PORTFOLIO/VID_8.png" className="h-[400px]" alt="VIDEO 8" />
-                <img src="/src/assets/PORTFOLIO/VID_9.png" className="h-[400px]" alt="VIDEO 9" />
+        <section className="sm:pt-5 lg:pt-20 -mx-35">
+          <div className="sm:h-[130px] sm:mb-[160px] lg:h-[360px] bg-[var(--text)] lg:mb-[320px]">
+            <h1 className="text-[var(--accent)] sm:text-[16px] lg:text-[50px] py-[30px] font-bold text-center">LATEST VIDEO</h1>
+            <div className="sm:pb-[30px] lg:pb-[150px] lg:mx-[200px] overflow-hidden!">
+              <div className="animate-scroll flex w-full sm:gap-2 lg:gap-5">
+                <img src="/src/assets/PORTFOLIO/VID_1.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 1" />
+                <img src="/src/assets/PORTFOLIO/VID_2.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 2" />
+                <img src="/src/assets/PORTFOLIO/VID_3.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 3" />
+                <img src="/src/assets/PORTFOLIO/VID_4.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 4" />
+                <img src="/src/assets/PORTFOLIO/VID_5.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 5" />
+                <img src="/src/assets/PORTFOLIO/VID_6.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 6" />
+                <img src="/src/assets/PORTFOLIO/VID_7.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 7" />
+                <img src="/src/assets/PORTFOLIO/VID_8.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 8" />
+                <img src="/src/assets/PORTFOLIO/VID_9.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 9" />
                 {/*DUPLICATES FOR LOOP */}
-                <img src="/src/assets/PORTFOLIO/VID_1.png" className="h-[400px]" alt="VIDEO 1" />
-                <img src="/src/assets/PORTFOLIO/VID_2.png" className="h-[400px]" alt="VIDEO 2" />
-                <img src="/src/assets/PORTFOLIO/VID_3.png" className="h-[400px]" alt="VIDEO 3" />
-                <img src="/src/assets/PORTFOLIO/VID_4.png" className="h-[400px]" alt="VIDEO 4" />
-                <img src="/src/assets/PORTFOLIO/VID_5.png" className="h-[400px]" alt="VIDEO 5" />
-                <img src="/src/assets/PORTFOLIO/VID_6.png" className="h-[400px]" alt="VIDEO 6" />
-                <img src="/src/assets/PORTFOLIO/VID_7.png" className="h-[400px]" alt="VIDEO 7" />
-                <img src="/src/assets/PORTFOLIO/VID_8.png" className="h-[400px]" alt="VIDEO 8" />
-                <img src="/src/assets/PORTFOLIO/VID_9.png" className="h-[400px]" alt="VIDEO 9" />
+                <img src="/src/assets/PORTFOLIO/VID_1.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 1" />
+                <img src="/src/assets/PORTFOLIO/VID_2.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 2" />
+                <img src="/src/assets/PORTFOLIO/VID_3.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 3" />
+                <img src="/src/assets/PORTFOLIO/VID_4.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 4" />
+                <img src="/src/assets/PORTFOLIO/VID_5.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 5" />
+                <img src="/src/assets/PORTFOLIO/VID_6.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 6" />
+                <img src="/src/assets/PORTFOLIO/VID_7.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 7" />
+                <img src="/src/assets/PORTFOLIO/VID_8.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 8" />
+                <img src="/src/assets/PORTFOLIO/VID_9.png" className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[400px] object-cover" alt="VIDEO 9" />
               </div>
             </div>
           </div>
