@@ -25,7 +25,7 @@ export default function Portfolio(){
             </div>
           </div>
         </section>
-        <section className="sm:pt-5 lg:pt-20 -mx-35">
+        <section className="sm:pt-5 lg:pt-20 sm:-mx-10 lg:-mx-35">
           <div className="sm:h-[130px] sm:mb-[160px] lg:h-[360px] bg-[var(--text)] lg:mb-[320px]">
             <h1 className="text-[var(--accent)] sm:text-[16px] lg:text-[50px] py-[30px] font-bold text-center">LATEST VIDEO</h1>
             <div className="sm:pb-[30px] lg:pb-[150px] lg:mx-[200px] overflow-hidden!">
