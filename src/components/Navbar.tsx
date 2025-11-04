@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="sm:w-[215px] lg:w-[375px]">
         <a href="/">
           <img src="/src/assets/ICONS/SITE_LOGO.png" 
-               className="sm:w-[180px] lg:w-[375px]"
+               className="sm:w-[180px] lg:w-[300px] xl:w-[375px]"
                alt="Site Logo" 
           />
         </a>

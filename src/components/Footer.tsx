@@ -1,7 +1,7 @@
 import "../styles.css"
 export default function Footer() {
     return (
-        <footer className="sm:px-[40px] sm:py-[20px] lg:px-[160px] lg:py-[140px] flex sm:max-lg:flex-col w-full justify-between bg-[var(--text)]">
+        <footer className="sm:px-[40px] sm:py-[20px] lg:px-[100px] lg:py-[100px] xl:px-[160px] xl:py-[140px] flex sm:max-lg:flex-col w-full justify-between bg-[var(--text)]">
             {/*MOBILE CONTACT BUTTON */}
             <section className="lg:hidden flex flex-col items-center sm:max-lg:pb-[30px] sm:gap-[15px] lg:gap-[50px]">
                 <h1 className="sm:text-[32px] lg:text-[40px] text-[var(--accent)] font-medium text-center">Collab With me</h1>
@@ -22,9 +22,9 @@ export default function Footer() {
             </section>
             {/*DESKTOP CONTACT BUTTON */}
             <section className="sm:max-lg:hidden flex flex-col items-center sm:gap-[15px] lg:gap-[50px]">
-                <h1 className="sm:text-[32px] lg:text-[40px] text-[var(--accent)] font-medium text-center">Collab With me</h1>
-                <a href="/"><button className="sm:text-[16px] sm:px-[24px] sm:py-[12px]
-                                               lg:text-[40px] font-medium bg-[var(--accent)] lg:px-[60px] lg:py-[30px] rounded-4xl">CONTACT US</button></a>
+                <h1 className="sm:text-[32px] xl:text-[40px] text-[var(--accent)] font-medium text-center">Collab With me</h1>
+                <a href="/"><button className="sm:text-[16px] sm:px-[24px] sm:py-[12px] lg:text-[24px] lg:px-[30px] lg:py-[20px]
+                                               xl:text-[40px] font-medium bg-[var(--accent)] xl:px-[60px] xl:py-[30px] rounded-4xl">CONTACT US</button></a>
             </section>
             <section className="flex flex-col justify-center gap-[30px]">
                 <p className="sm:text-[20px] lg:text-[30px] text-[var(--accent)] font-medium">Follow me.</p>
