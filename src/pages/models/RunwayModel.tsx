@@ -6,11 +6,11 @@ export default function RunwayModel(){
   return (
     <>
     <div className="h-[100vh] flex flex-col overflow-x-hidden justify-between">
-      <div className="sm:px-[40px]
+      <div className="sm:px-[40px] lg:px-[100px]
                       xl:pt-[60px] xl:px-[140px]">
         <Navbar />
       </div>
-      <div className="sm:px-[40px] sm:gap-[10px] xl:px-[140px] flex flex-col lg:gap-5">
+      <div className="sm:px-[40px] sm:gap-[10px] lg:px-[100px] xl:px-[140px] flex flex-col lg:gap-5">
         <h1 className="sm:text-[16px] sm:pt-[20px] md:text-[32px] xl:text-[50px] font-bold text-center lg:pt-[100px]">RUNWAY MODEL</h1>
         {/*1st grid */}
         <div className="sm:flex sm:flex-col sm:gap-[10px] md:grid md:grid-cols-3 lg:gap-5">
