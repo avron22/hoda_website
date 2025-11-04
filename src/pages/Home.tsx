@@ -11,8 +11,8 @@ export default function Home(){
         </div>
         <div className="hero-bg flex-1 lg:h-[100vh] flex flex-col justify-between lg:max-h-[100vh] overflow-hidden 
                         sm:px-[20px] sm:py-0 md:max-lg:justify-center md:px-[60px] 
-                        lg:px-[100px] lg:pt-[40px] lg:pb-[60px]
-                        xl:px-[140px] xl:pt-[60px] xl:pb-[90px]"> 
+                        lg:px-[100px] lg:pb-[60px]
+                        xl:px-[140px] lg:pt-[60px] xl:pb-[90px]"> 
           <section>
         {/*Desktop Navbar*/}
             <div className="sm:max-lg:hidden">

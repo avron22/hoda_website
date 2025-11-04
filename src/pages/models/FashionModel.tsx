@@ -7,7 +7,7 @@ export default function FashionModel(){
     <>
     <div className="h-[100vh] flex flex-col overflow-x-hidden justify-between">
         <div className="sm:px-[40px] lg:px-[100px]
-                        xl:pt-[60px] xl:px-[140px]">
+                        lg:pt-[60px] xl:px-[140px]">
           <Navbar />
         </div>
           <div className="sm:px-[40px] lg:px-[100px] xl:px-[140px] sm:pb-[20px] lg:pb-20 flex flex-col gap-5">

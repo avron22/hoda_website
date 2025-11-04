@@ -7,7 +7,7 @@ export default function RunwayModel(){
     <>
     <div className="h-[100vh] flex flex-col overflow-x-hidden justify-between">
       <div className="sm:px-[40px] lg:px-[100px]
-                      xl:pt-[60px] xl:px-[140px]">
+                      lg:pt-[60px] xl:px-[140px]">
         <Navbar />
       </div>
       <div className="sm:px-[40px] sm:gap-[10px] lg:px-[100px] xl:px-[140px] flex flex-col lg:gap-5">
