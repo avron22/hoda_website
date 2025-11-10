@@ -44,12 +44,12 @@ export default function Navbar() {
       </button>
 
 {/* DESKTOP NAV */}
-      <nav className="desktopNav hidden! lg:flex! sm:max-xl:gap-6 xl:gap-[55px] items-end">
-        <NavLink to="/portfolio" className="text-[16px] xl:text-[24px]" end>PORTFOLIO</NavLink>
-        <NavLink to="/about" className="text-[16px] xl:text-[24px]">ABOUT</NavLink>
+      <nav className="desktopNav hidden! lg:flex! sm:max-xl:gap-6 xl:gap-[55px] items-end \">
+        <NavLink to="/portfolio" className="text-[16px] xl:text-[24px] hover:text-black hover:font-medium" end>PORTFOLIO</NavLink>
+        <NavLink to="/about" className="text-[16px] xl:text-[24px] hover:text-black hover:font-medium">ABOUT</NavLink>
 
-        <NavLink to="/press" className="text-[16px] xl:text-[24px]">PRESS</NavLink>
-        <NavLink to="/contact" className="text-[16px] xl:text-[24px]">CONTACT</NavLink>
+        <NavLink to="/press" className="text-[16px] xl:text-[24px] hover:text-black hover:font-medium">PRESS</NavLink>
+        <NavLink to="/contact" className="text-[16px] xl:text-[24px] hover:text-black hover:font-medium">CONTACT</NavLink>
       </nav>
 
 {/* MOBILE NAV */}
@@ -67,11 +67,11 @@ export default function Navbar() {
             <button className="absolute top-2 right-6 text-4xl" 
                     onClick={handleClose}>×
             </button>
-                <NavLink to="/portfolio" className="text-[16px] xl:text-[24px] p-5 text-center border-b-1" end onClick={handleClose}>PORTFOLIO</NavLink>
-                <NavLink to="/about" className="text-[16px] xl:text-[24px] p-5 text-center border-b-1" onClick={handleClose}>ABOUT</NavLink>
+                <NavLink to="/portfolio" className="text-[16px] xl:text-[24px] p-5 text-center border-b-1 hover:text-black hover:font-medium" end onClick={handleClose}>PORTFOLIO</NavLink>
+                <NavLink to="/about" className="text-[16px] xl:text-[24px] p-5 text-center border-b-1 hover:text-black hover:font-medium" onClick={handleClose}>ABOUT</NavLink>
          
-                <NavLink to="/press" className="text-[16px] xl:text-[24px] p-5 text-center border-b-1" onClick={handleClose}>PRESS</NavLink>
-                <NavLink to="/contact" className="text-[16px] xl:text-[24px] p-5 text-center border-b-1" onClick={handleClose}>CONTACT</NavLink>
+                <NavLink to="/press" className="text-[16px] xl:text-[24px] p-5 text-center border-b-1 hover:text-black hover:font-medium" onClick={handleClose}>PRESS</NavLink>
+                <NavLink to="/contact" className="text-[16px] xl:text-[24px] p-5 text-center border-b-1 hover:text-black hover:font-medium" onClick={handleClose}>CONTACT</NavLink>
             
             {/*site logo mobile */}
             <a className="p-0 self-center px-5 pt-25" href="/">

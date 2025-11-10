@@ -26,8 +26,16 @@ export default function Home(){
                               flex justify-between lg:w-full lg:text-6xl font-medium 
                               lg:pl-[160px] lg:pr-[200px]
                               xl:pl-[360px] xl:pr-[440px]">
-                <NavLink to="/models/runway-model" className="">RUNWAY</NavLink>
-                <NavLink to="/models/fashion-model" className="">MODEL</NavLink>
+                <NavLink to="/models/runway-model" 
+                         className="relative inline-block text-black after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[6px] after:bg-current after:transition-all after:duration-300 hover:after:w-full hover:after:-translate-x-1/2 after:translate-x-[-50%]
+                                    hover:font-semibold">
+                          RUNWAY
+                </NavLink>
+                <NavLink to="/models/fashion-model"  
+                         className="relative inline-block text-black after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[6px] after:bg-current after:transition-all after:duration-300 hover:after:w-full hover:after:-translate-x-1/2 after:translate-x-[-50%]
+                                    hover:font-semibold">
+                          MODEL
+                </NavLink>
               </div>
             </div>
           </section>
