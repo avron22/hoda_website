@@ -20,7 +20,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-10 row-span-5">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Brown_1.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Brown_1.png" 
                       alt="Brown 1"
                       className="w-full h-full object-cover"
                     />
@@ -31,7 +31,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-9 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Brown_2.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Brown_2.png" 
                       alt="Brown 2"
                       className="w-full h-full object-cover"
                     />
@@ -42,7 +42,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-11 row-span-2">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Brown_3.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Brown_3.png" 
                       alt="Brown 3"
                       className="w-full h-full object-cover"
                     />
@@ -53,7 +53,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-6 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Brown_5.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Brown_5.png" 
                       alt="Brown 4"
                       className="w-full h-full object-cover"
                     />
@@ -64,7 +64,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-5 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Brown_6.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Brown_6.png" 
                       alt="Brown 5"
                       className="w-full h-full object-cover"
                     />
@@ -75,7 +75,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-9 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Brown_4.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Brown_4.png" 
                       alt="Brown 6"
                       className="w-full h-full object-cover"
                     />
@@ -86,7 +86,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-10 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Yellow_1.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Yellow_1.png" 
                       alt="Yellow 1"
                       className="w-full h-full object-cover"
                     />
@@ -97,7 +97,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-11 row-span-5">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Yellow_3.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Yellow_3.png" 
                       alt="Yellow 2"
                       className="w-full h-full object-cover"
                     />
@@ -108,7 +108,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-9 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Yellow_2.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Yellow_2.png" 
                       alt="Yellow 3"
                       className="w-full h-full object-cover"
                     />
@@ -119,7 +119,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-5 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Yellow_4.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Yellow_4.png" 
                       alt="Yellow 4"
                       className="w-full h-full object-cover"
                     />
@@ -130,7 +130,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-5 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Yellow_5.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Yellow_5.png" 
                       alt="Yellow 5"
                       className="w-full h-full object-cover"
                     />
@@ -141,7 +141,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-9 row-span-2">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Yellow_6.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Yellow_6.png" 
                       alt="Yellow 6"
                       className="w-full h-full object-cover"
                     />
@@ -152,7 +152,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-11 row-span-4">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Pink_3.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Pink_3.png" 
                       alt="Pink 1"
                       className="w-full h-full object-cover"
                     />
@@ -163,7 +163,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-10 row-span-6">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Pink_1.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Pink_1.png" 
                       alt="Pink 2"
                       className="w-full h-full object-cover"
                     />
@@ -174,7 +174,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-9 row-span-4">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Pink_2.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Pink_2.png" 
                       alt="Pink 3"
                       className="w-full h-full object-cover"
                     />
@@ -185,7 +185,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-11 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Pink_5.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Pink_5.png" 
                       alt="Pink 4"
                       className="w-full h-full object-cover"
                     />
@@ -196,7 +196,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-9 row-span-2">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Pink_4.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Pink_4.png" 
                       alt="Pink 5"
                       className="w-full h-full object-cover"
                     />
@@ -207,7 +207,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-10 row-span-6">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Moon_1.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Moon_1.png" 
                       alt="Moon 1"
                       className="w-full h-full object-cover"
                     />
@@ -218,7 +218,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-9 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Moon_2.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Moon_2.png" 
                       alt="Moon 2"
                       className="w-full h-full object-cover"
                     />
@@ -229,7 +229,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-11 row-span-6">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Moon_4.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Moon_4.png" 
                       alt="Moon 3"
                       className="w-full h-full object-cover"
                     />
@@ -240,7 +240,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-9 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Moon_3.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Moon_3.png" 
                       alt="Moon 4"
                       className="w-full h-full object-cover"
                     />
@@ -251,7 +251,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-8 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Red_1.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Red_1.png" 
                       alt="Red 1"
                       className="w-full h-full object-cover"
                     />
@@ -262,7 +262,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-11 sm:row-span-6 md:row-span-5 lg:row-span-6">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Red_3.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Red_3.png" 
                       alt="Red 2"
                       className="w-full h-full object-cover"
                     />
@@ -273,7 +273,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-11 row-span-6">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Red_4.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Red_4.png" 
                       alt="Red 3"
                       className="w-full h-full object-cover"
                     />
@@ -284,7 +284,7 @@ export default function FashionModel(){
                 <div className="col-span-30 md:col-span-15 lg:col-span-8 row-span-3">
                   <div className="relative h-full overflow-hidden rounded-lg shadow-lg">
                     <img 
-                      src="../src/assets/FASHION/Red_2.png" 
+                      src="https://drive.developershideout.com:4431/hoda_img/FASHION/Red_2.png" 
                       alt="Red 4"
                       className="w-full h-full object-cover"
                     />

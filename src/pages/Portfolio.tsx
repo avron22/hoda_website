@@ -18,7 +18,7 @@ export default function Portfolio(){
                   RUNWAY MODEL
                 </h1>
                 <img
-                  src="/src/assets/PORTFOLIO/RUNWAY_COVER.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/RUNWAY_COVER.png"
                   alt="RUNWAY MODEL"
                 />
               </a>
@@ -30,7 +30,7 @@ export default function Portfolio(){
                   FASHION MODEL
                 </h1>
                 <img
-                  src="/src/assets/PORTFOLIO/FASHION_COVER.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/FASHION_COVER.png"
                   alt="RUNWAY MODEL"
                 />
               </a>
@@ -45,93 +45,93 @@ export default function Portfolio(){
             <div className="sm:pb-[30px] xl:pb-[150px] lg:mx-[100px] xl:mx-[200px] overflow-hidden!">
               <div className="animate-scroll flex w-full sm:gap-2 lg:gap-5">
                 <img
-                  src="/src/assets/PORTFOLIO/VID_1.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_1.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 1"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_2.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_2.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 2"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_3.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_3.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 3"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_4.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_4.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 4"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_5.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_5.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 5"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_6.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_6.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 6"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_7.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_7.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 7"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_8.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_8.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 8"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_9.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_9.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 9"
                 />
                 {/*DUPLICATES FOR LOOP */}
                 <img
-                  src="/src/assets/PORTFOLIO/VID_1.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_1.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 1"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_2.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_2.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 2"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_3.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_3.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 3"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_4.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_4.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 4"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_5.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_5.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 5"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_6.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_6.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 6"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_7.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_7.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 7"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_8.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_8.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 8"
                 />
                 <img
-                  src="/src/assets/PORTFOLIO/VID_9.png"
+                  src="https://drive.developershideout.com:4431/hoda_img/PORTFOLIO/VID_9.png"
                   className="sm:max-md:rounded-xl sm:h-[170px] sm:max-md:w-[105px] lg:h-[250px] xl:h-[400px] object-cover"
                   alt="VIDEO 9"
                 />

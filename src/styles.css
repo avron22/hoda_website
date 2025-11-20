@@ -46,7 +46,7 @@ body {
 }
 
 .hero-bg {
-  background-image: url('./src/assets/HOME/HERO.png');
+  background-image: url('https://drive.developershideout.com:4431/hoda_img/HOME/HERO.png');
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

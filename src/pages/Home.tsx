@@ -41,20 +41,20 @@ export default function Home(){
           </section>
           <section className="sm:max-lg:hidden">
             <div className="flex items-center justify-end gap-20 pr-10">
-              <a href="/"><img src="/src/assets/ICONS/TIKTOK_ICON.svg" alt="TIKTOK" /></a>
-              <a href="/"><img src="/src/assets/ICONS/FB_ICON.svg" alt="FACEBOOK" /></a>
-              <a href="/"><img src="/src/assets/ICONS/IG_ICON.svg" alt="INSTAGRAM" /></a>
-              <a href="/"><img src="/src/assets/ICONS/EMAIL_ICON.svg" alt="EMAIL" /></a>
+              <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/TIKTOK_ICON.svg" alt="TIKTOK" /></a>
+              <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/FB_ICON.svg" alt="FACEBOOK" /></a>
+              <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/IG_ICON.svg" alt="INSTAGRAM" /></a>
+              <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/EMAIL_ICON.svg" alt="EMAIL" /></a>
             </div>
           </section>
         </div>
         {/*Mobile Footer */}
         <div className="py-[10px] lg:hidden">
             <div className="flex items-center justify-center gap-[50px] px-[50px]">
-              <a href="/"><img src="/src/assets/ICONS/TIKTOK_FILL_ICON.svg" className="w-[25px]" alt="TIKTOK" /></a>
-              <a href="/"><img src="/src/assets/ICONS/FB_FILL_ICON.svg" className="w-[25px]" alt="FACEBOOK" /></a>
-              <a href="/"><img src="/src/assets/ICONS/IG_FILL_ICON.svg" className="w-[25px]" alt="INSTAGRAM" /></a>
-              <a href="/"><img src="/src/assets/ICONS/EMAIL_FILL_ICON.svg" className="w-[25px]" alt="EMAIL" /></a>
+              <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/TIKTOK_FILL_ICON.svg" className="w-[25px]" alt="TIKTOK" /></a>
+              <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/FB_FILL_ICON.svg" className="w-[25px]" alt="FACEBOOK" /></a>
+              <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/IG_FILL_ICON.svg" className="w-[25px]" alt="INSTAGRAM" /></a>
+              <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/EMAIL_FILL_ICON.svg" className="w-[25px]" alt="EMAIL" /></a>
             </div>
         </div>
       </div>

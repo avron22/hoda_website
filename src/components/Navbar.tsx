@@ -22,7 +22,7 @@ export default function Navbar() {
       {/* Logo */}
       <div className="sm:w-[215px] lg:w-[375px]">
         <a href="/">
-          <img src="/src/assets/ICONS/SITE_LOGO.png" 
+          <img src="https://drive.developershideout.com:4431/hoda_img/ICONS/SITE_LOGO.png" 
                className="sm:w-[180px] lg:w-[300px] xl:w-[375px]"
                alt="Site Logo" 
           />
@@ -75,7 +75,7 @@ export default function Navbar() {
             
             {/*site logo mobile */}
             <a className="p-0 self-center px-5 pt-25" href="/">
-              <img src="/src/assets/ICONS/SITE_LOGO.png" alt="Site Logo" />
+              <img src="https://drive.developershideout.com:4431/hoda_img/ICONS/SITE_LOGO.png" alt="Site Logo" />
             </a>
             
           </div>
