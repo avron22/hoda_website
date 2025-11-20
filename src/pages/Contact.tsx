@@ -1,81 +1,75 @@
-import React from "react";
+import Navbar from "../components/Navbar"
 
-const Contact: React.FC = () => {
+export default function Contact(){
   return (
-    <section className="w-full bg-gradient-to-b from-white to-gray-50 py-16 mb-52">
-      {/* Banner */}
-      <div className="mb-16 ml-24">
-        <img
-          src="/src/assets/contact-us.png"
-          alt="Contact Banner"
-          className="w-1/5 h-auto"
-        />
+    <>
+    <div>
+      <div className="sm:px-[40px] lg:pt-[60px] lg:px-[100px] xl:px-[140px]">
+        <Navbar />
       </div>
-
-      {/* Main Container */}
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 px-6">
-        {/* Left Section */}
-        <div className="text-gray-800 flex-1">
-          <h2 className="text-4xl font-semibold mb-3">Get In Touch</h2>
-          <p className="text-gray-600 mb-10 text-lg leading-relaxed">
-            Reach out to our team. Let’s make your modeling dreams a reality!
-          </p>
-
-          {/* Contact Details */}
-          <div className="flex flex-col gap-6">
-            {/* Location */}
-            <div className="flex items-start gap-4 text-gray-700">
-              <img src="/src/assets/pin.svg" alt="Location" className="w-7 h-7" />
-              <p className="text-base leading-relaxed">
-                29 20th Ave, Cubao, Quezon City, 1110 Metro Manila
-              </p>
-            </div>
-
-            {/* Email */}
-            <div className="flex items-start gap-4 text-gray-700">
-              <img src="/src/assets/email.svg" alt="Email" className="w-7 h-7" />
-              <div className="flex flex-col gap-1">
-                <p className="text-base">models@manilarunwayrepublic.com</p>
-                <p className="text-base">kathy@manilarunwayrepublic.com</p>
+      <section className="flex flex-col justify-between  min-h-[100vh]">
+          <h1 className="sm:text-[20px] md:text-[32px] xl:text-[50px] font-bold text-center sm:pt-[20px] md:pt-[60px] lg:pt-[100px] pb-[30px]">CONTACT</h1>
+          <div className="flex sm:max-lg:flex-col lg:min-h-[80vh]">
+            {/*LEFT COLUMN */}
+            <div className="lg:w-[50%] sm:max-lg:px-[40px] lg:max-xl:pl-[100px] lg:max-xl:pr-[20px] 
+                            xl:pl-[278px] lg:pt-[30px] xl:pr-[90px]"
+              >
+              <h1 className="sm:text-[16px] lg:text-[24px] xl:text-[30px]">Make an appointment with me.</h1>
+              <div className="flex flex-col sm:gap-[30px] lg:gap-[65px] pt-10">
+                <div className="flex gap-6 items-center sm:max-lg:justify-center">
+                  <img src="https://drive.developershideout.com:4431/hoda_img/ICONS/EMAIL_FILL_ICON.svg" 
+                       className="sm:max-md:w-[24px]"
+                      alt="" />
+                  <p className="sm:text-[16px] lg:text-[20px]">hello@hodarizk.com</p>
+                </div>
+                <div className="flex gap-6 items-center sm:max-lg:justify-center">
+                  <img src="https://drive.developershideout.com:4431/hoda_img/ICONS/PHONE_FILL_ICON.svg" 
+                       className="sm:max-md:w-[24px]"
+                      alt="" />
+                  <p className="sm:text-[16px] lg:text-[20px]">(+63) 912-345-6789</p>
+                </div>
+              </div>
+              <div className="flex flex-col justify-center sm:pt-[40px] sm:max-lg:pb-[50px] lg:pt-[100px] gap-[50px]">
+              <p className="sm:text-[16px] sm:max-lg:text-center lg:text-[30px] font-medium">Follow me.</p>
+                <div className="sm:max-lg:justify-center flex gap-[75px]">
+                    <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/TIKTOK_FILL_ICON.svg" alt="TIKTOK" /></a>
+                    <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/FB_FILL_ICON.svg" alt="FACEBOOK" /></a>
+                    <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/IG_FILL_ICON.svg" alt="INSTAGRAM" /></a>
+                </div>
               </div>
             </div>
+            {/*RIGHT COLUMN */}
+            <div className="lg:w-[50%] sm:max-md:px-[20px] md:max-lg:px-[40px] 
+                            lg:max-xl:pl-[20px] lg:max-xl:pr-[100px] xl:pr-[278px] 
+                            pt-[30px] xl:pl-[90px] sm:pb-[30px] lg:pb-[115px] text-[var(--accent)] bg-[var(--text)]"
+            >
+              <h1 className="lg:text-[24px] xl:text-[30px] pb-[30px]">Send us a message.</h1>
+              <form action="submit" className="sm:text-[16px] md:text-[20px] flex flex-col gap-[15px]">
+                <p className="pb-[10px]">name</p>
+                <input type="text" name="name" id="name" required
+                       autoComplete="name"
+                       className="sm:w-[100%] md:w-[50%] sm:text-[16px] md:text-[20px] px-4 py-2 border border-[var(--accent)] rounded-full bg-transparent focus:outline-none focus:border-amber-300"
+                />
+                <p className="pb-[10px]">email</p>
+                <input type="text" name="email" id="email" required
+                       autoComplete="email"
+                       className="sm:w-[100%] md:w-[70%] sm:text-[16px] md:text-[20px] px-4 py-2 border border-[var(--accent)] rounded-full bg-transparent focus:outline-none focus:border-amber-300"
+                />
+                <p className="pb-[10px]">message</p>
+                <textarea rows={5} name="message" id="message" required
+                          autoComplete="message"
+                          className="w-full sm:text-[16px] md:text-[20px] px-4 py-2 border border-[var(--accent)] rounded-3xl bg-transparent focus:outline-none focus:border-amber-300"
+                />
+
+                <button type="submit"
+                        className="w-[30%] sm:max-lg:self-center mt-[30px] px-6 py-3 bg-[var(--bg)] text-[var(--text)] font-medium italic rounded-full hover:bg-amber-200 transition">
+                        SEND
+                </button>
+              </form>
+            </div>
           </div>
-        </div>
-
-        {/* Right Section - Form */}
-        <form className="flex-1 bg-white shadow-lg shadow-gray-200 rounded-2xl p-8 flex flex-col gap-5 transition-all duration-300 hover:shadow-xl">
-          {/* Name + Email */}
-          <div className="flex flex-col md:flex-row gap-4">
-            <input
-              type="text"
-              placeholder="Name"
-              className="flex-1 px-4 py-3 border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-200"
-            />
-            <input
-              type="email"
-              placeholder="Email"
-              className="flex-1 px-4 py-3 border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-200"
-            />
-          </div>
-
-          {/* Message */}
-          <textarea
-            placeholder="Message"
-            rows={5}
-            className="px-4 py-3 border border-gray-200 rounded-xl text-base resize-none focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-200"
-          />
-
-          {/* Submit Button */}
-          <button
-            type="submit"
-            className="w-full bg-gray-900 text-white font-semibold py-3 rounded-xl shadow-md hover:bg-gray-700 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5"
-          >
-            Send Message
-          </button>
-        </form>
-      </div>
-    </section>
+      </section>
+    </div>
+    </>
   );
-};
-
-export default Contact;
+}
