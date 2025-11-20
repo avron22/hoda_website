@@ -15,23 +15,23 @@ export default function RunwayModel(){
         {/*1st grid */}
         <div className="sm:flex sm:flex-col sm:gap-[10px] md:grid md:grid-cols-3 lg:gap-5">
           <div>
-            <img src="../src/assets/RUNWAY/1.png" 
+            <img src="https://drive.developershideout.com:4431/hoda_img/RUNWAY/1.png" 
                  className="h-full"
                  alt="Image 1" />
           </div>
           <div className="grid grid-rows-2 sm:gap-[10px] overflow-hidden lg:gap-5">
-            <img src="../src/assets/RUNWAY/2.png" 
+            <img src="https://drive.developershideout.com:4431/hoda_img/RUNWAY/2.png" 
                  className="h-full"
                  alt="Image 2" />
-            <img src="../src/assets/RUNWAY/3.png" 
+            <img src="https://drive.developershideout.com:4431/hoda_img/RUNWAY/3.png" 
                  className="h-full"
                  alt="Image 3" />
           </div>
           <div className="grid grid-rows-2 sm:gap-[10px] lg:gap-5">
-            <img src="../src/assets/RUNWAY/4.png" 
+            <img src="https://drive.developershideout.com:4431/hoda_img/RUNWAY/4.png" 
                  className="h-full"
                  alt="Image 4" />
-            <img src="../src/assets/RUNWAY/5.png" 
+            <img src="https://drive.developershideout.com:4431/hoda_img/RUNWAY/5.png" 
                  className="h-full"
                  alt="Image 5" />
           </div>
@@ -40,24 +40,24 @@ export default function RunwayModel(){
         <div className="grid sm:gap-[10px] md:grid-cols-3 lg:gap-5 sm:pb-[20px] lg:pb-[65px]">
           {/*MOBILE LONG IMAGE */}
           <div className="md:hidden">
-            <img src="../src/assets/RUNWAY/10.png" 
+            <img src="https://drive.developershideout.com:4431/hoda_img/RUNWAY/10.png" 
                  alt="Image 10" />
           </div>
           <div className="grid grid-rows-2 sm:gap-[10px] lg:gap-5">
-            <img src="../src/assets/RUNWAY/6.png" 
+            <img src="https://drive.developershideout.com:4431/hoda_img/RUNWAY/6.png" 
                  alt="Image 6" />
-            <img src="../src/assets/RUNWAY/7.png" 
+            <img src="https://drive.developershideout.com:4431/hoda_img/RUNWAY/7.png" 
                  alt="Image 7" />
           </div>
           <div className="grid grid-rows-2 sm:gap-[10px] lg:gap-5">
-            <img src="../src/assets/RUNWAY/8.png" 
+            <img src="https://drive.developershideout.com:4431/hoda_img/RUNWAY/8.png" 
                  alt="Image 8" />
-            <img src="../src/assets/RUNWAY/9.png" 
+            <img src="https://drive.developershideout.com:4431/hoda_img/RUNWAY/9.png" 
                  alt="Image 9" />
           </div>
           {/*DESKTOP LONG IMAGE */}
           <div className="sm:max-md:hidden">
-            <img src="../src/assets/RUNWAY/10.png" 
+            <img src="https://drive.developershideout.com:4431/hoda_img/RUNWAY/10.png" 
                  alt="Image 10" />
           </div>
         </div>

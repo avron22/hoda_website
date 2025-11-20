@@ -12,11 +12,11 @@ export default function Footer() {
                                 sm:max-lg:pb-[50px] lg:gap-10">
                 <h1 className="lg:hidden text-[20px] font-medium text-[var(--accent)]">Contact me.</h1>
                 <div className="flex gap-5 sm:max-lg:px-[30px]">
-                    <img src="/src/assets/ICONS/EMAIL_ICON.svg" className="sm:w-[24px] lg:w-[35px]" alt="Email Icon" />
+                    <img src="https://drive.developershideout.com:4431/hoda_img/ICONS/EMAIL_ICON.svg" className="sm:w-[24px] lg:w-[35px]" alt="Email Icon" />
                     <p className="text-[14px] xl:text-[20px] 2xl:text-[24px] text-[var(--accent)]">hello@hodarizk.com</p>
                 </div>
                 <div className="flex gap-5 sm:max-lg:px-[30px]">
-                    <img src="/src/assets/ICONS/PHONE_ICON.svg" className="sm:w-[24px] lg:w-[35px]" alt="Phone Icon" />
+                    <img src="https://drive.developershideout.com:4431/hoda_img/ICONS/PHONE_ICON.svg" className="sm:w-[24px] lg:w-[35px]" alt="Phone Icon" />
                     <p className="text-[14px] xl:text-[20px] 2xl:text-[24px] text-[var(--accent)]">(+63) 912-345-6789</p>
                 </div>
             </section>
@@ -34,9 +34,9 @@ export default function Footer() {
             <section className="flex flex-col justify-center gap-[30px]">
                 <p className="sm:text-[20px] lg:text-[30px] text-[var(--accent)] font-medium">Follow me.</p>
                 <div className="flex gap-[75px] sm:max-lg:justify-center">
-                    <a href="/"><img src="/src/assets/ICONS/TIKTOK_ICON.svg" alt="TIKTOK" /></a>
-                    <a href="/"><img src="/src/assets/ICONS/FB_ICON.svg" alt="FACEBOOK" /></a>
-                    <a href="/"><img src="/src/assets/ICONS/IG_ICON.svg" alt="INSTAGRAM" /></a>
+                    <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/TIKTOK_ICON.svg" alt="TIKTOK" /></a>
+                    <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/FB_ICON.svg" alt="FACEBOOK" /></a>
+                    <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/IG_ICON.svg" alt="INSTAGRAM" /></a>
                 </div>
             </section>
             

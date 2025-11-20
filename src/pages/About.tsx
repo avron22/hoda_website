@@ -23,23 +23,23 @@ export default function About(){
           <div className="sm:max-lg:hidden lg:py-5 flex flex-col items-center">
             <a><button className="font-medium italic border-[1px] border-[#707070] py-[16px] px-[50px] rounded-full">Follow Me</button></a>
             <div className="flex gap-[75px] pt-10">
-                <a href="/"><img src="/src/assets/ICONS/TIKTOK_FILL_ICON.svg" alt="TIKTOK" /></a>
-                <a href="/"><img src="/src/assets/ICONS/FB_FILL_ICON.svg" alt="FACEBOOK" /></a>
-                <a href="/"><img src="/src/assets/ICONS/IG_FILL_ICON.svg" alt="INSTAGRAM" /></a>
+                <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/TIKTOK_FILL_ICON.svg" alt="TIKTOK" /></a>
+                <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/FB_FILL_ICON.svg" alt="FACEBOOK" /></a>
+                <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/IG_FILL_ICON.svg" alt="INSTAGRAM" /></a>
             </div>
           </div>
           
         </div>
         <div className="lg:w-[50%]">
-          <img src="/src/assets/ABOUT/Image_1.png" alt="" />
+          <img src="https://drive.developershideout.com:4431/hoda_img/ABOUT/Image_1.png" alt="" />
         </div>
         {/*MOBILE ICONS */}
         <div className="sm:max-lg:py-[20px] lg:hidden flex flex-col items-center">
             <a><button className="font-medium italic border-[1px] border-[#707070] py-[16px] px-[50px] rounded-full">Follow Me</button></a>
             <div className="flex gap-[75px] pt-10">
-                <a href="/"><img src="/src/assets/ICONS/TIKTOK_FILL_ICON.svg" alt="TIKTOK" /></a>
-                <a href="/"><img src="/src/assets/ICONS/FB_FILL_ICON.svg" alt="FACEBOOK" /></a>
-                <a href="/"><img src="/src/assets/ICONS/IG_FILL_ICON.svg" alt="INSTAGRAM" /></a>
+                <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/TIKTOK_FILL_ICON.svg" alt="TIKTOK" /></a>
+                <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/FB_FILL_ICON.svg" alt="FACEBOOK" /></a>
+                <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/IG_FILL_ICON.svg" alt="INSTAGRAM" /></a>
             </div>
         </div>
       </section>
