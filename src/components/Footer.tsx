@@ -5,7 +5,7 @@ export default function Footer() {
             {/*MOBILE CONTACT BUTTON */}
             <section className="lg:hidden flex flex-col items-center sm:max-lg:pb-[30px] sm:gap-[15px] lg:gap-[50px]">
                 <h1 className="sm:text-[32px] lg:text-[40px] text-[var(--accent)] font-medium text-center">Collab With me</h1>
-                <a href="/"><button className="sm:text-[16px] sm:px-[24px] sm:py-[12px]
+                <a href="https://hodarizk.com/contact"><button className="sm:text-[16px] sm:px-[24px] sm:py-[12px]
                                                lg:text-[40px] font-medium bg-[var(--accent)] lg:px-[60px] lg:py-[30px] rounded-4xl">CONTACT US</button></a>
             </section>
             <section className="flex flex-col justify-end sm:gap-[30px] 
@@ -23,7 +23,7 @@ export default function Footer() {
             {/*DESKTOP CONTACT BUTTON */}
             <section className="sm:max-lg:hidden flex flex-col items-center sm:gap-[15px] lg:gap-[50px]">
                 <h1 className="sm:text-[32px] xl:text-[40px] text-[var(--accent)] font-medium text-center">Collab With me</h1>
-                <a href="http://localhost:5173/contact">
+                <a href="https://hodarizk.com/contact">
                     <button className="sm:text-[16px] sm:px-[24px] sm:py-[12px] lg:text-[24px] lg:px-[30px] lg:py-[20px]
                                        xl:text-[40px] font-medium bg-[var(--accent)] xl:px-[60px] xl:py-[30px] rounded-4xl
                                        cursor-pointer hover:font-bold transition">

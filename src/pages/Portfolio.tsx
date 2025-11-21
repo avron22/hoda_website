@@ -13,7 +13,7 @@ export default function Portfolio(){
           <Navbar />
           <div className="sm:pt-1 lg:pt-20 xl:pt-40 flex sm:max-lg:flex-col sm:gap-5 lg:gap-4">
             <div className="lg:w-[50%] flex lg:flex-col gap-[30px]">
-              <a href="http://localhost:5173/models/runway-model">
+              <a href="https://hodarizk.com/models/runway-model">
                 <h1 className="sm:text-[16px] sm:max-lg:pb-[10px] lg:text-[32px] xl:text-[50px] font-bold">
                   RUNWAY MODEL
                 </h1>
@@ -25,7 +25,7 @@ export default function Portfolio(){
             </div>
 
             <div className="lg:w-[50%] flex lg:flex-col gap-[30px]">
-              <a href="http://localhost:5173/models/fashion-model">
+              <a href="https://hodarizk.com/models/fashion-model">
                 <h1 className="sm:text-[16px] sm:max-lg:pb-[10px] lg:text-[32px] xl:text-[50px] font-bold">
                   FASHION MODEL
                 </h1>
