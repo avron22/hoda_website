@@ -25,7 +25,7 @@ export default function Portfolio(){
             </div>
 
             <div className="lg:w-[50%] flex lg:flex-col gap-[30px]">
-              <a href="https://hodarizk.com/models/fashion-model">
+              <a href="/models/fashion-model">
                 <h1 className="sm:text-[16px] sm:max-lg:pb-[10px] lg:text-[32px] xl:text-[50px] font-bold">
                   FASHION MODEL
                 </h1>
