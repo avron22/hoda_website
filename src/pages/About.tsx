@@ -21,7 +21,7 @@ export default function About(){
           </p>
           {/*DESKTOP ICONS */}
           <div className="sm:max-lg:hidden lg:py-5 flex flex-col items-center">
-            <a><button className="font-medium italic border-[1px] border-[#707070] py-[16px] px-[50px] rounded-full">Follow Me</button></a>
+            <a href="https://hodarizk.com/contact"><button className="font-medium italic border-[1px] border-[#707070] py-[16px] px-[50px] rounded-full cursor-pointer">Follow Me</button></a>
             <div className="flex gap-[75px] pt-10">
                 <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/TIKTOK_FILL_ICON.svg" alt="TIKTOK" /></a>
                 <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/FB_FILL_ICON.svg" alt="FACEBOOK" /></a>
@@ -35,7 +35,7 @@ export default function About(){
         </div>
         {/*MOBILE ICONS */}
         <div className="sm:max-lg:py-[20px] lg:hidden flex flex-col items-center">
-            <a><button className="font-medium italic border-[1px] border-[#707070] py-[16px] px-[50px] rounded-full">Follow Me</button></a>
+            <a href="https://hodarizk.com/contact"><button className="font-medium italic border-[1px] border-[#707070] py-[16px] px-[50px] rounded-full cursor-pointer">Follow Me</button></a>
             <div className="flex gap-[75px] pt-10">
                 <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/TIKTOK_FILL_ICON.svg" alt="TIKTOK" /></a>
                 <a href="/"><img src="https://drive.developershideout.com:4431/hoda_img/ICONS/FB_FILL_ICON.svg" alt="FACEBOOK" /></a>
